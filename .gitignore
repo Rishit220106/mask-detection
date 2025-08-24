@@ -1,0 +1,19 @@
+# Ignore virtual environment
+venv/
+Lib/
+Scripts/
+share/
+pyvenv.cfg
+
+# Ignore model files (they are big, better upload separately if needed)
+*.h5
+*.keras
+
+# Ignore cache
+__pycache__/
+*.pyc
+
+# But keep all python files and requirements
+!*.py
+!requirements.txt
+!.gitignore
